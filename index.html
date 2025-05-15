@@ -1,0 +1,197 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmentforms</title>
+</head>
+<body>
+    <marquee  direction="left"><center><h1>Job Application Form</h1></center></marquee>
+    <form action="action.html" autocompelete=""  target="=_blank"  >
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+            <tr>
+                <td><label for="">First Name*</label></td>
+                <td><input type="text" required placeholder="eg.Dharmana"></td> 
+            </tr>
+            <tr>
+                <td><label for="">Last Name*</label></td>
+                <td><input type="text" required placeholder="eg.Mohiht"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Date of Birth</label></td>
+                </td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="">male
+                  <input type="radio" name="gender" id="">female
+                  <input type="radio" name="gender" id="">others
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Profile Picture</label></td>
+                <td><input type="file" name="choose file" id=""></td>
+            </tr>
+            </table>
+
+        </fieldset>
+
+    
+    
+
+  
+    <fieldset>
+        <legend>Contact Information</legend>
+        <table>
+            <tr>
+                <td><label for="">Email*</label></td>
+                <td><input type="text" required placeholder="dharmanamohith118@outlook.com"></td>
+            </tr>
+            <tr>
+                <td><label for="">Phone Number</label></td>
+                <td><input type="text" required placeholder="eg.7896xxxxxx"></td>
+            </tr>
+            <tr>
+            
+            
+                    <td><label for="address">Address</label></td>
+                    <td>
+                        <textarea id="address" name="address" required placeholder="e.g., Street no, Village name" cols="40" rows="4"></textarea>
+                    </td>
+                
+            </tr>
+            <tr>
+                <td><label for="">Country</label></td>
+                <td>
+                    <select name="country" id="">
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">UK</option>
+                        <option value="">Australia</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    <form action="">
+    <fieldset>
+        <legend>Educational Background</legend>
+        <table>
+            <tr>
+            <td><label for="">Highest Qualification</label></td>
+            <td>
+                <select>
+                    <option value="">10th</option>
+                    <option value="">12th</option>
+                    <option value="">Graduation</option>
+                    <option value="">Post Graduation</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="">Specalization</label></td>
+                <td><input type="text" required placeholder="eg.CSE"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">year of Graduation </label>
+                </td>
+                <td><input type="text" placeholder="eg.2025" ></td>
+               
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Job Preferences</legend>
+        <table>
+            <tr>
+                <td><label for="">Preferred Role</label></td>
+                <td><input type="text" required placeholder="eg.Developer"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Expected Salary</label></td>
+                <td><input type="text" required placeholder="eg.3lpa"></td>
+            </tr>
+            <tr>
+                <td><label for="">Preferred Location</label></td>
+                <td>
+                <input type="checkbox" id="location1" name="Noida" value="Noida">
+                <label for="location1">Noida</label><br>
+                <input type="checkbox" id="location2" name="location" value="Amaravathi">
+                <label for="location2">Amaravathi</label><br>
+                <input type="checkbox" id="location3" name="location" value="Banglore">
+                <label for="location3">Banglore</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="">Willing to Relocate?</label></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Create Account</legend>
+        <table>
+            <tr>
+                <td><label for="">Password*</label></td>
+                <td><input type="password" required minlength="6"></td>
+            </tr>
+            <tr>
+                <td><label for="">Confirm Password*</label></td>
+                <td><input type="password" required></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Resume</legend>
+        <table>
+            <tr>
+                <td><label for="">Upload your Resume(PDF only)*</label></td>
+                <td><input type="file" required></td>
+            </tr>
+        </table>
+        
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Agreement</legend>
+        <table>
+            <tr>
+                <td><label for="">I agree to the terms and conditions</label></td>
+                <td><input type="checkbox" required></td>
+            </tr>
+            <tr>
+                <td><label for="">I agree to the privacy policy</label></td>
+                <td><input type="checkbox" required></td>
+            </tr>
+            <tr>
+                
+                <td><input type="Submit" value="submit application"></td>
+            
+            
+                
+            </tr>
+            <tr>
+                <td><input type="submit" value="Reset"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
